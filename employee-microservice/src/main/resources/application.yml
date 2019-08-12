@@ -1,9 +1,9 @@
 server:
-  port: 0
+  port: 2
 
 spring:
   application:
-    name: reimbursements
+    name: employee
     
 eureka:
   client:
