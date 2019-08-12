@@ -5,7 +5,7 @@
 
 #spring:
 #  application:
-#    name: Zuul-Example
+#    name: Zuul-Gatekeeper
     
 eureka:
   client:
@@ -23,7 +23,3 @@ zuul:
       path: /employee/*
       service-id: employee-service
       strip-prefix: false
-      
-# URL=Universal Resource Locator
-
-# URI= Universal Resource Indentifier
