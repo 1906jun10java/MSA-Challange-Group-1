@@ -21,5 +21,5 @@ zuul:
       strip-prefix: false
     employee:
       path: /employee/*
-      service-id: employee-service
+      service-id: employee
       strip-prefix: false
