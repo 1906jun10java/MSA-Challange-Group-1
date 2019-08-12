@@ -19,7 +19,6 @@ zuul:
       path: /reimbursements/*
       service-id: reimbusement-service
       strip-prefix: false
-      
     employee:
       path: /employee/*
       service-id: employee-service
