@@ -13,7 +13,7 @@ import com.revature.Employee;
 import com.revature.service.EmployeeService;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping(value="/employee")
 public class EmployeeController {
 	
 	EmployeeService es;
