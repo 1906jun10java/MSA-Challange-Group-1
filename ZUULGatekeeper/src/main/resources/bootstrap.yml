@@ -17,7 +17,7 @@ zuul:
   routes:
     reimbursement:
       path: /reimbursements/*
-      service-id: reimbusement-service
+      service-id: reimbursements
       strip-prefix: false
     employee:
       path: /employee/*
