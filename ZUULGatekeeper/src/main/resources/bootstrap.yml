@@ -15,9 +15,14 @@ eureka:
     
 zuul:
   routes:
-    gary:
+    reimbursement:
       path: /reimbursements/*
       service-id: reimbusement-service
+      strip-prefix: false
+      
+    employee:
+      path: /employee/*
+      service-id: employee-service
       strip-prefix: false
       
 # URL=Universal Resource Locator
