@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.Employee;
+import com.revature.beans.Employee;
 import com.revature.service.EmployeeService;
 
 @CrossOrigin
@@ -30,5 +30,11 @@ public class EmployeeController {
 	public ResponseEntity<List<Employee>> getAllEmployees(){
 		List<Employee> employees = es.getAllEmployees();
 		return new ResponseEntity<List<Employee>>(employees, new HttpHeaders(), HttpStatus.OK);
+	}
+	
+	@RequestMapping(value="/getAll", method=RequestMethod.GET)
+	public ResponseEntity<String> getReimbursements() {
+		ResponseEntity<String> response = new ResponseEntity<>("It works", HttpStatus.OK);
+		return response;
 	}
 }

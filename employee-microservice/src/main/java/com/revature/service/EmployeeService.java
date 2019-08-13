@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.revature.Employee;
+import com.revature.beans.Employee;
 import com.revature.repository.EmployeeRepository;
 
 public class EmployeeService {
