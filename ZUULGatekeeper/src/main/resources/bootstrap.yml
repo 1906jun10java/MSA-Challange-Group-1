@@ -18,8 +18,8 @@ zuul:
     reimbursement:
       path: /reimbursements/*
       service-id: reimbursements
-      strip-prefix: false
+      strip-prefix: true
     employee:
       path: /employee/*
       service-id: employee
-      strip-prefix: false
+      strip-prefix: true
