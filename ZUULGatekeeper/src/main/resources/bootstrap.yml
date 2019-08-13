@@ -20,6 +20,6 @@ zuul:
       service-id: reimbursements
       strip-prefix: true
     employee:
-      path: /employee/*
+      path: /employees/*
       service-id: employee
       strip-prefix: true
